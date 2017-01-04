@@ -5,5 +5,5 @@ words = happy.split()
 counts = {}
 for word in words:
     counts[word] = counts.get(word, 0) + 1
-print("La cantidad de palabras del input es: ")
+print("La cantidad de palabras del input del usuario es: ")
 print(counts)
